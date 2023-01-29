@@ -1,0 +1,52 @@
+.App {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.calculator_box {
+padding: 100px 0px 0px 0px;
+margin: 0 auto;
+text-align: center;
+width: 250px;
+height: 705px;
+}
+
+.calculation_output {
+  padding: 7px 7px 7px 7px;
+  margin: 0px 0px 2px 18px;
+  background-color: #5d5b4c;
+  text-align: right;
+  width: 200px;
+  height: 30px;
+  font-size: 25px;
+  color: white;
+}
+
+.numbers {
+  font-weight: bold;
+  background-color: #5d5b4c;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 1px 1px;
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+}
+
+.back_clear_calculate {
+  font-weight: bold;
+  background-color: #5d5b4c;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 2px 1px;
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+}
+
+.numbers:hover {background-color: #878578}
+.back_clear_calculate:hover {background-color: #878578}
